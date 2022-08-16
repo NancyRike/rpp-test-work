@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.headerBlock{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 10px;
+}
+.logo{
+    text-align: center;
+}
+.logo p{
+    margin-bottom: 0;
+}
+.navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navList li{
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.registerButton button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(78, 236, 78);
+    padding: 12px 18px;
+    color: white;
+    font-weight: 600;
+}
+.footerWrapper{
+    background-color: rgb(78, 236, 78);
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+
+}
+.footerWrapper p{
+    color: white;
+    text-align: center;
+}

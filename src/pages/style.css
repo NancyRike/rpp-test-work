@@ -1,0 +1,90 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.landingContainer{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/backgroundPhoto.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.landingWrapper{
+    opacity: 0.6;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    /* background-position: center; */
+
+}
+.mainText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.mainText h2{
+    font-size: 75px;
+    font-weight: 600;
+}
+.mainText p{
+    width: 50%;
+    font-size: 29px;
+}
+.mainText button{
+    margin: 50px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(78, 236, 78);
+    padding: 20px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.ads{
+    position: absolute;
+    bottom: -7%;
+    right: 31%;
+}
+.adsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.adItem{
+    padding: 10px 40px;
+    background-color: rgb(78, 236, 78);
+    color: white;
+    margin: 0 1px;
+
+}
+.aboutContainer{
+
+}
+.bannerBody {
+    margin-top: 100px;
+
+}
+.banner {
+    text-align: center;
+}
+.banner h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.banner h6{
+    color: rgb(78, 236, 78);
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.bannerImage{
+    text-align: center;
+}
+.imageUI{
+    background-color: grey;
+}
